@@ -38,4 +38,4 @@ if __name__ == '__main__':
   to_file_ext = 'wav'
   convert_video(path_in, path_out, to_file_ext, org_ext)
    
-print ("Conversions finished...")
+print ("All files converted!")
