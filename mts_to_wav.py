@@ -16,7 +16,7 @@ def convert_video(path_in, path_out, to_file_ext, org_ext):
           file_path_out = f'{path_out+os.path.splitext(file.name)[0]}.{to_file_ext}'
           subprocess.run(['ffmpeg', '-i', file_path_in, '-vn', '-acodec', 'pcm_s16le', '-ac', '1', file_path_out])
  
-print ("Starting...")
+print ("Conversion begins now:")
  
 path_in = sys.argv[1] # files for conversion and uploading are stored here
 path_out = sys.argv[2] # converted files are stored here temporarily
