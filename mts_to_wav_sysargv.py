@@ -2,7 +2,6 @@
  
 import subprocess
 import os, sys
-import ftplib
  
 # function for converting videos to specified format
 def convert_video(path_in, path_out, to_file_ext, org_ext):
