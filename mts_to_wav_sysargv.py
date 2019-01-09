@@ -26,9 +26,9 @@ for p in [path_in, path_out]:
     try:
       os.mkdir(p)
     except OSError:  
-        print ("Creation of the directory %s failed" % path)
+        print ("Creation of the directory %s failed" % p)
     else:  
-        print ("Successfully created the directory %s " % path)
+        print ("Successfully created the directory %s " % p)
 
 #call videos to be processed
  
